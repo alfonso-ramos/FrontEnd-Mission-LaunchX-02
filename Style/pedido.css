@@ -1,0 +1,60 @@
+:root {
+    /* Colores */
+    --main_color: #623cea;
+    --secundary_color: #f0e100;
+    --light:#e9f1f7;
+    --grey: #2b2c28;
+    --dark:#131515;
+
+    /* Fuente */
+
+    --ubuntu:'Ubuntu', sans-serif;
+}
+.container{
+    text-align: center;
+}
+.container-1{
+    background-color: var(--secundary_color);
+}
+.container-2{
+    background-color: var(--grey);
+    color: white;
+}
+.grid{
+    padding: 4rem 2rem;
+}
+.grid h3{
+    padding-bottom: 4rem;
+}
+.grid .link-button{
+    margin-top: 4rem;
+}
+.link-button{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    width: 20rem;
+    height: 4rem;
+    color: white;
+    background-color: var(--main_color);
+    border-radius: 5rem;
+}
+.button-2{
+    background-color: var(--secundary_color);
+    color: var(--grey);
+}
+.link-button:hover{
+    background-color: var(--grey);
+    text-decoration: underline var(--main_color) .2rem;
+    width: 22rem;
+    height: 5rem;
+}
+.button-2:hover{
+    background-color: var(--main_color);
+    color: white;
+    text-decoration: underline var(--secundary_color) .2rem;
+    width: 22rem;
+    height: 5rem;
+}
