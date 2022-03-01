@@ -27,7 +27,6 @@ body{
 }
 /* Globales */
 .container{
-    max-width: 120rem;
     width: 100%;
     margin: 0;
 }
@@ -76,9 +75,7 @@ header{
     height: 8rem;
 }
 /* Seccion del main */
-.main-title{
-    text-decoration: underline var(--secundary_color);
-}
+
 /* Seccion del footer */
 footer{
     background-color: var(--secundary_color);
