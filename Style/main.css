@@ -68,17 +68,17 @@ ul{
 .text-center{
     text-align: center;
 }
-main{
-    color: white;
+
+/* Seccion del header */
+header{
     background-color: var(--main_color);
-    display: flex;
-    text-align: center;
-    align-items: center;
-    height: 95vh;
+    height: 8rem;
 }
+/* Seccion del main */
+
+/* Seccion del footer */
 footer{
     background-color: var(--secundary_color);
-    height: 5vh;
+    color: var(--grey);
     text-align: center;
-    padding-top: 1.5rem;
 }
