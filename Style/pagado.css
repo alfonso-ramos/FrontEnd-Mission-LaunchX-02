@@ -1,0 +1,26 @@
+:root {
+    /* Colores */
+    --main_color: #623cea;
+    --secundary_color: #f7e018;
+    --light:#e9f1f7;
+    --grey: #2b2c28;
+    --dark:#131515;
+
+    /* Fuente */
+
+    --ubuntu:'Ubuntu', sans-serif;
+}
+main{
+    background-color: var(--secundary_color);
+    height: 100vh;
+    text-align: center;
+}
+
+.container .check{
+    width: 20rem;
+    padding-top: 15rem;
+}
+
+.container p{
+    padding: 2rem 0;
+}

@@ -1,7 +1,7 @@
 :root {
     /* Colores */
     --main_color: #623cea;
-    --secundary_color: #f0e100;
+    --secundary_color: #f7e018;
     --light:#e9f1f7;
     --grey: #2b2c28;
     --dark:#131515;
@@ -17,15 +17,22 @@
     background-color: var(--secundary_color);
     display: flex;
     align-items: center;
+    justify-content: center;
+    height: 50vh;
 }
 .container-2{
     background-color: var(--grey);
     color: white;
     display: flex;
     align-items: center;
+    justify-content: center;
+    height: 50vh;
 }
 .grid{
     padding: 4rem 2rem;
+}
+.grid p{
+    font-size: 2rem;
 }
 .grid h3{
     padding-bottom: 4rem;
@@ -66,6 +73,9 @@
     .selection-div{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        height: 100vh;
     }
+    .container-1, .container-2{
+        height: 90vh;
+    }
+
 }

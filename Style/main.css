@@ -1,7 +1,7 @@
 :root {
     /* Colores */
     --main_color: #623cea;
-    --secundary_color: #f0e100;
+    --secundary_color: #f7e018;
     --light:#e9f1f7;
     --grey: #2b2c28;
     --dark:#131515;
@@ -75,7 +75,18 @@ header{
     height: 8rem;
 }
 /* Seccion del main */
-
+.link-button{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    width: 20rem;
+    height: 4rem;
+    color: white;
+    background-color: var(--main_color);
+    border-radius: 5rem;
+}
 /* Seccion del footer */
 footer{
     background-color: var(--secundary_color);
