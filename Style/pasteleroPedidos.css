@@ -1,0 +1,171 @@
+:root {
+    /* Colores */
+    --main_color: #623cea;
+    --secundary_color: #f7e018;
+    --light:#e9f1f7;
+    --grey: #2b2c28;
+    --dark:#131515;
+
+    /* Fuente */
+
+    --ubuntu:'Ubuntu', sans-serif;
+}
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+body{
+    font-family: var(--ubuntu);
+    font-size: 1.6rem;
+    line-height: 2rem;
+    margin: 0;
+    background-color: var(--secundary_color);
+}
+/* Globales */
+.container{
+    width: 100%;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4{
+    line-height: 4rem;
+    margin: 0;
+}
+h1{
+    font-size: 4.8rem;
+}
+h2{
+    font-size: 4rem;
+}
+h3{
+    font-size: 3.2rem;
+}
+h4{
+    font-size: 2.8rem;
+}
+p{
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+/* Utilities */
+.no-margin{
+    margin: 0;
+}
+.no-padding{
+    padding: 0;
+}
+.text-center{
+    text-align: center;
+}
+
+/* Seccion del header */
+header{
+    background-color: var(--secundary_color);
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-title{
+    color: var(--dark);
+    font-weight: bold;
+    font-size: 4rem;
+}
+.line{
+    background-color: var(--main_color);
+    width: 100%;
+    height: 0.4rem;
+
+}
+/* Seccion del main */
+
+.sabores-container ul {
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 768px){
+    .sabores-container ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+.sabores-container ul li{
+    background-color: var(--secundary_color);
+    width: 27rem;
+    padding: 3rem ;
+    margin: 2rem;
+    color: var(--dark);
+    font-weight: bold;
+    border-radius: 1rem;
+}
+.pastel-img{
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+}
+
+main{
+    background-color: var(--secundary_color);
+    color: var(--dark);
+}
+.main-title{
+    line-height: 5rem;
+    padding-bottom: 5rem;
+}
+.link-button{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    width: 20rem;
+    height: 4rem;
+    color: var(--dark);
+    background-color: var(--secundary_color);
+    border-radius: 5rem;
+}
+
+.pedidos-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pedido{
+    border: var(--main_color) 5px solid;
+    border-radius: 1rem;
+    margin: 2rem 10rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.nombre-pastel{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+.pedido-info a{
+    background-color: var(--main_color );
+    padding: 1rem 3rem;
+    margin: 0 2rem;
+    color: white;
+}
+/* Seccion del footer */
+footer{
+    background-color: var(--secundary_color);
+    color: var(--grey);
+    text-align: center;
+    margin-top: 4rem;
+}
